@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login Authentication</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="card">
+    <h1>🔐 Login Auth</h1>
+
+    <section>
+      <h2>Register</h2>
+      <input id="regUser" type="text" placeholder="Username" />
+      <input id="regPass" type="password" placeholder="Password" />
+      <button id="regBtn">Create Account</button>
+    </section>
+
+    <section>
+      <h2>Login</h2>
+      <input id="loginUser" type="text" placeholder="Username" />
+      <input id="loginPass" type="password" placeholder="Password" />
+      <button id="loginBtn">Sign In</button>
+    </section>
+
+    <section class="secured">
+      <h2>Secured Page</h2>
+      <button id="secureBtn">Open Secure Message</button>
+      <p id="secureMsg" class="muted"></p>
+    </section>
+
+    <p id="msg" class="muted"></p>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
