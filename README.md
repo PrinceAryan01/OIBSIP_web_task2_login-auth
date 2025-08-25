@@ -1,5 +1,5 @@
-# OIBSIP_web_task2_login-auth
-# OIBSIP – Web Development – Task 2 – Login Authentication
+# OIBSIP_web_task4_login-auth
+# OIBSIP – Web Development – Task 4 – Login Authentication
 
 ## Objective
 Create a user login authentication system using HTML, CSS, and JavaScript with basic validation.
